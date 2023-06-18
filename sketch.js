@@ -10,7 +10,7 @@ var left;
 var right;
 var top_wall;
 var ball
-var waste1
+var waste1, waste2
 
 function setup() {
   createCanvas(800,700);
@@ -47,6 +47,8 @@ function draw()
   left.show();
   right.show();
   waste1.show();
+  waste2.show();
+  fill("white")
   ellipse(ball.position.x, ball.position.y,20)
   Engine.update(engine);
 }

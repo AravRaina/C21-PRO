@@ -22,6 +22,7 @@ function setup() {
   left = new Ground(10,350,20,700);
   top_wall = new Ground(400,10,800,20);
   waste1 = new Ground(600,630,20,100)
+  waste2 = new Ground(500,630,20,100)
 
   ball_options={
     restitution:0.3,
